@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        ARTIFACTORY_URL = "https://trialpasujs.jfrog.io//artifactory"
+        ARTIFACTORY_URL = "https://trialpasujs.jfrog.io/artifactory"
         ARTIFACTORY_REPO = "tf--terraform-modules-local"
         NAMESPACE = "dammykrane"
         MODULE_NAME = "krane-mighty"
